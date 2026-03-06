@@ -1,0 +1,8 @@
+com/company/mentalhealth/controller/AnalyticsController.class
+com/company/mentalhealth/entity/DepartmentStress.class
+com/company/mentalhealth/repository/MoodStatsRepository.class
+com/company/mentalhealth/entity/MoodStats.class
+com/company/mentalhealth/entity/HighRisk.class
+com/company/mentalhealth/MentalhealthApplication.class
+com/company/mentalhealth/repository/DepartmentStressRepository.class
+com/company/mentalhealth/repository/HighRiskRepository.class

@@ -1,0 +1,9 @@
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/MentalhealthApplication.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/controller/AnalyticsController.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/entity/DepartmentStress.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/entity/HighRisk.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/entity/MoodStats.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/repository/DepartmentStressRepository.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/repository/HighRiskRepository.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/repository/MoodStatsRepository.java
+/Users/ishitadwivedi/mental-health-aider-platform/backend-api/src/main/java/com/company/mentalhealth/service/AnalyticsService.java
