@@ -1,0 +1,57 @@
+<h1 class="title">Mental Health Risk Analytics Dashboard</h1>
+
+<!-- KPI CARDS -->
+<div class="kpi-container">
+
+  <div class="kpi-card">
+    <h3>Total Employees</h3>
+    <p>{{totalEmployees}}</p>
+  </div>
+
+  <div class="kpi-card">
+    <h3>High Risk Employees</h3>
+    <p>{{highRisk}}</p>
+  </div>
+
+  <div class="kpi-card">
+    <h3>Average Stress</h3>
+    <p>{{avgStress}}</p>
+  </div>
+
+  <div class="kpi-card">
+    <h3>Average Sleep</h3>
+    <p>{{avgSleep}}</p>
+  </div>
+
+</div>
+
+
+<!-- CHART ROW -->
+<div class="chart-row">
+
+  <div class="chart-card">
+    <div id="departmentChart"></div>
+  </div>
+
+  <div class="chart-card">
+    <div id="moodChart"></div>
+  </div>
+
+</div>
+
+
+<!-- SCATTER CHART -->
+<div class="chart-card large-chart">
+    <div id="sleepStressChart" style="width:100%; height:350px;"></div>
+</div>
+
+
+<!-- AG GRID -->
+<div class="grid-container">
+  <ag-grid-angular
+    class="ag-theme-quartz"
+    style="width:100%; height:450px"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs">
+  </ag-grid-angular>
+</div>
